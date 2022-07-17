@@ -8,9 +8,9 @@ class Import implements IExpression {
 
   /// Example
   /// ```dart
-  /// Import('package:code_generator/code_generator.dart', as: 'writer')
+  /// Import('package:codis_generator/codis_generator.dart', as: 'writer')
   /// ```
-  /// [Output]: import 'package:code_generator/code_generator.dart as writer;
+  /// [Output]: import 'package:codis_generator/codis_generator.dart as writer;
   Import(this.path, {this.asName});
 
   @override

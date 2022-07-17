@@ -1,8 +1,8 @@
-# CodeGenerator
+# CodisGenerator
 
-* Fork from DartWriter that was stopped developing
+* Fork from DartWriter that is deprecated
 
-`CodeGenerator` provides API to generate Dart source code. It can make your job easier while developing flutter/dart tools. You can also generate Flutter UI code.
+`CodisGenerator` provides API to generate Dart source code. It can make your job easier while developing flutter/dart tools. You can also generate Flutter UI code.
 
 ### Hello World Example
 
@@ -116,18 +116,18 @@ In the `pubspec.yaml` of your **Flutter** / **Dart** project, add the following 
 ```yaml
 dependencies:
   ...
-  code_generator: any
+  codis_generator: any
 ```
 
 In your library file add the following import:
 
 ```dart
-import 'package:code_generator/code_generator.dart';
+import 'package:codis_generator/codis_generator.dart';
 ```
 
 ## API Documentation
 
-- [CodeGenerator](#codegenerator)
+- [CodisGenerator](#codisgenerator)
     - [Hello World Example](#hello-world-example)
     - [Flutter Stateless Widget Example](#flutter-stateless-widget-example)
   - [Installation](#installation)
@@ -357,7 +357,7 @@ abstract class Flyable extends Breathable {
 | Expression  | Example Code | Output |
 | ----------- | ----------- | ----------- |
 | Annotation  | Annotation('override') | `@override` |
-| Import      | Import('package:code_generator/code_generator.dart', as: 'writer') | `import 'package:code_generator/code_generator.dart' as writer;` |
+| Import      | Import('package:codis_generator/codis_generator.dart', as: 'writer') | `import 'package:codis_generator/codis_generator.dart' as writer;` |
 | Enum  | Enum('Roles', enums: ['USER', 'ADMIN', 'DEVELOPER']) | `enum Roles { USER, ADMIN, DEVELOPER }` |
 | Paramter | Parameter([ParameterItem('String name', isNamed: true, isRequired: true)]) | `{required String name}` |
 | Argument | Argument([ArgumentItem("'Star'", name:'surname']) | `surname: 'Star'` |

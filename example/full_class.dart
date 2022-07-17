@@ -1,4 +1,4 @@
-import 'package:code_generator/code_generator.dart';
+import 'package:codis_generator/codis_generator.dart';
 
 /// [Output]:
 // class Bird extends Animal with Feather, Walk implements Flyable, Crowable {   

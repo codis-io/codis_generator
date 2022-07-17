@@ -1,7 +1,7 @@
-name: code_generator
+name: codis_generator
 version: 0.0.2
-homepage: https://github.com/codis-io/code_generator
-description: DartWriter provides API to generate Dart source code. It can make your job easier while developing flutter/dart tools. You can also generate Flutter UI code.
+homepage: https://github.com/codis-io/codis_generator
+description: CodisGenerator provides API to generate Dart source code. It can make your job easier while developing flutter/dart tools. You can also generate Flutter UI code.
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
